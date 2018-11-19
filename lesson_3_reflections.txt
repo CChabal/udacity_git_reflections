@@ -6,4 +6,8 @@ If I'm working on different computers. Or, usually when I'm collaborating on pro
 
 Because I want to work on my own pace, instead of Git automatically changing my work for me and pulling commits that I'm not ready for.
 
+-Describe the differences between forks, clones, and branches. When would you use one instead of another.
+
+By cloning you make a copy of a repository which will be saved on your computer. You could also clone repositories locals. Fork has the same function as a clone but it's done remotely. On GitHub to be precise. Branches are basically pointers to a particular series of commits. They can diverge into other commits (branch of) for feature testing for example.
+
 -
