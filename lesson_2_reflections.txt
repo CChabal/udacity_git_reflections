@@ -5,3 +5,25 @@ If I want a working version-control I need to initialize a repository or else gi
 -How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is just a stepping stone for my commits. It works as a "basket" that I want to fill upp before "sending" it away to my repository.
+
+-How can you use the staging area to make sure you have one commit per logical change?
+
+I can use the command "git diff --staged" to compare the files in the staging area with the repository to see that there is one logical change.
+
+-What are some situations when branches would be helpful in keeping your history organized? How would branches help out?
+
+When trying out new features for example. Branching would help because the main "branch" would be untouched when I'm implementing my new feature. And if it fails I can go back to my version in my main "branch".
+
+-How do the diagrams help you visualize the branch structure?
+
+Visualization by image is much more powerful than just words. And that can be seen here very clearly. They help me connect the concept of branching and how it works!
+
+-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together is combining the two different versions. If I added a feature to a new branch I can add that feature to my master branch.
+
+-What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+There is really no cons. Git isn't an advanced machine learning algorithm. So to merge changes and fix conflict git gives us time to fix them manually so no bugs will occur if git just "guessed".
+
+-
