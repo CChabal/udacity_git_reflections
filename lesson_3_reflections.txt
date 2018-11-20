@@ -10,4 +10,13 @@ Because I want to work on my own pace, instead of Git automatically changing my 
 
 By cloning you make a copy of a repository which will be saved on your computer. You could also clone repositories locals. Fork has the same function as a clone but it's done remotely. On GitHub to be precise. Branches are basically pointers to a particular series of commits. They can diverge into other commits (branch of) for feature testing for example.
 
+-What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It's easier to work with. Using commands as diff and log.
+
+-How would you collaborate without using Git or GitHub? What would be easier, and what
+would be harder?
+
+In that case the collaboration would occur sitting next to me co-workers and with post-its. This would make it hard and my legs would turn into jello if I had to run around checking all the different changes all the time between us co-workers.
+
 -
