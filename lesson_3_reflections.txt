@@ -19,4 +19,7 @@ would be harder?
 
 In that case the collaboration would occur sitting next to me co-workers and with post-its. This would make it hard and my legs would turn into jello if I had to run around checking all the different changes all the time between us co-workers.
 
--
+-When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When working on a feature or on bugs the ideal would be to make the changes in a separate branch. And perhaps when several people are working on the same project.
+Working on master is much faster but the aftermath is much more, pulling changes, marge the off branch into master, push the master and merge again.
